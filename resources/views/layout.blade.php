@@ -7,7 +7,7 @@
     <title>Point of Sale</title>
     <link rel="stylesheet" href="{{ asset('bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('style.css') }}">
-
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
 
@@ -20,7 +20,7 @@
 
             <nav id="main-nav">
                 <a href="{{ url('/') }}">Home</a>
-                <a href="{{ url('/products') }}">Products</a>
+                <a href="{{ url('/product-index') }}">Products</a>
                 <a href="{{ url('/pos') }}">POS</a>
                 <a href="{{ url('/about') }}">About</a>
             </nav>
